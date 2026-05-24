@@ -1,0 +1,24 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Luxury theme variables */
+:root {
+  --color-bg: #050507; /* Deep Obsidian */
+  --color-surface: #0A0A0C; /* Vercel Dark */
+  --color-primary: #FFFFFF; /* Pure White */
+  --color-muted: #9CA3AF; /* Slate Gray */
+  --color-accent-teal: #00F2FE; /* Neon Teal */
+  --color-accent-purple: #7F00FF; /* Tech Purple */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  font-family: 'Inter', sans-serif;
+}
